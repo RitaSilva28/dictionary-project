@@ -1,8 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+
+
+function App() {
+  return (
+    <div className="App">
+      <header className="App-header">
+        <h1>Dictionary Project <br/>  📖</h1>
+       
+      </header>
+    </div>
+  );
+}
+
 
 ReactDOM.render(
   <React.StrictMode>

@@ -17,9 +17,9 @@ console.log(props.meaning)
             return(
                 <div  key={index}>
 
-                    <p className="definition">
+                    <p className="definition"> Definition:
                     {definition.definition}</p>
-                    <p className="example">{definition.example}.</p>
+                    <p className="example">Example: {definition.example}.</p>
 <Synonyms synonyms={definition.synonyms}/>
                 </div>
             )

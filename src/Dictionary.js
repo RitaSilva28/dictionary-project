@@ -29,7 +29,7 @@ function handlePexelsResponse(response){
 
 
         let apiUrl=`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`;
-        let pexelsUrl=`https://api.pexels.com/v1/search?query=${word}&per_page=6`;
+        let pexelsUrl=`https://api.pexels.com/v1/search?query=${word}&per_page=9`;
         let pexelsApiKey="563492ad6f917000010000010466bd6e315044fea0e7d6c2b520f0af";
 
         

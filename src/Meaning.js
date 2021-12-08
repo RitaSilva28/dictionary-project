@@ -9,7 +9,7 @@ console.log(props.meaning)
 
     return (
         <div className="meaning">
-        <h3>{props.meaning.partOfSpeech}</h3>
+        <h3 className="part-of-speech">{props.meaning.partOfSpeech}</h3>
         {props.meaning.definitions.map(function(definition, index){
 
 
@@ -17,9 +17,8 @@ console.log(props.meaning)
             return(
                 <div  key={index}>
 
-                    <p className="definition"> Definition:
-                    {definition.definition}</p>
-                    <p className="example">Example: {definition.example}.</p>
+                    <p className="definition"> Definition: {definition.definition}</p>
+                    <p className="example">Example: {definition.example}</p>
 <Synonyms synonyms={definition.synonyms}/>
                 </div>
             )

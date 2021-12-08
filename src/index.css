@@ -1,10 +1,12 @@
+
+
 body {
   text-align: center;
   font-family: 'Readex Pro', sans-serif;
   margin: 0;
   padding:0;
   min-height: 100vh;
-  background: no-repeat linear-gradient(44.8deg, rgba(255, 136, 102, 0.67) -53.1%, rgba(255, 221, 136, 0.28) 49%);
+  background: repeat linear-gradient(155deg, rgb(244, 199, 159) 0%, rgb(255, 165, 87) 100%);
 
 }
 

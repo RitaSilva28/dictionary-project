@@ -16,4 +16,24 @@ text-align: start;
 
 }
 
+.audio-button{
+    border-radius:20px;
+    width: 10%;
+    padding:10px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    color:#ff896b;
+    border: 1px solid rgb(255, 242, 231);
+    background-color: rgb(249, 242, 231);
+    transition: all 200ms ease-in-out;
+
+    
+}
+
+.audio-button:hover{
+
+    color: rgb(255, 242, 231);
+    border-color: #ff896b;
+    background-color: #ff896b;
+}
 

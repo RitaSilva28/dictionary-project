@@ -51,7 +51,7 @@ console.log(message)
         <form onSubmit={search}>
             <input type="search" onChange={changeWord} placeholder="Type a word" autoFocus={false} />
         </form>
-         {message===true ? <h1>No results found </h1> : <Results data={data} message={message}/> }
+         {message===true ? <h1 className="results-message">Sorry we found no results 😔 <br/> <small>Please search for another word</small> </h1> : <Results data={data} message={message}/> }
     </div>
     )
 }

@@ -14,7 +14,9 @@ console.log(props.photos)
 
                return(
                    <div className="col-4">
+                       <a href={photo.src.original} target="_blank">
                    <img  className="img-fluid photo" src={photo.src.landscape} key={index}/>
+                   </a>
                    </div>
                )
 

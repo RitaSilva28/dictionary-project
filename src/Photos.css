@@ -12,6 +12,14 @@
     margin:14px 0;
     border-radius: 15px;
     box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
-    border:solid 6px rgb(255, 238, 227);
+    border:solid 10px rgb(255, 238, 227);
+    transition: all 200ms ease-in-out;
+
+
+}
+
+.photo:hover{
+
+    border:solid 5px rgb(247, 144, 75);
 
 }

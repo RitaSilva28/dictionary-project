@@ -1,0 +1,17 @@
+.photos{
+
+    width: 90%;
+    background-color: rgba(242, 242, 242, 0.434);
+    padding:5px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    margin:30px auto;
+}
+
+.photo{
+    margin:14px 0;
+    border-radius: 15px;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    border:solid 6px rgb(255, 238, 227);
+
+}

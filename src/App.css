@@ -1,20 +1,38 @@
 .App{
   text-align: center;
   font-family: 'Readex Pro', sans-serif;
+  
 
 }
 
 header{
-  margin:20px 0;
+  margin:40px 0;
 }
 
 h1{
   font-size: 60px;
+  color:#ff896b;
+
+}
+
+h3{
+  color:#ff896b;
+
 }
 
 footer{
   margin:30px 0;
+
 }
+.social-logos-container {
+  margin-bottom: 30px;
+}
+
+.social-logo {
+  width: 50px;
+  margin: 0px 20px;
+}
+
 
 
 

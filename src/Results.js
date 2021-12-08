@@ -4,9 +4,12 @@ import "./Results.css"
 
 export default function Results(props){
 
+
 console.log(props.data)
 
+
 if(props.data){
+
 
     return(
         <div className="results">
@@ -20,7 +23,11 @@ return <div key={index}>
     )
 
 }else{
-    return null
+
+        return null
+  
+    
+    
 }
 
    

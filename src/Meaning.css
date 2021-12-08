@@ -1,0 +1,7 @@
+.meaning{
+    background-color: rgba(242, 242, 242, 0.263);
+    padding:20px;
+    margin:20px;
+    border-radius: 5px;
+    box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+}

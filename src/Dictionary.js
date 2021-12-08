@@ -7,27 +7,43 @@ import Results from "./Results"
 export default function Dictionary(){
 let [word, setWord]=useState("");
 let [data, setData]=useState(null)
+let [message, setMessage]=useState(false)
 
 
 function handleResponse(response){
 setData(response.data[0])
+setMessage(false)
+console.log(response.data[0])
+
 }
 
 
     function search(event){
         event.preventDefault()
 
+
         let apiUrl=`https://api.dictionaryapi.dev/api/v2/entries/en/${word}`
 
-axios.get(apiUrl).then(handleResponse)
+       axios.get(apiUrl).then(handleResponse).catch(function (error) {
+        if (error.response) {
+          setMessage(true)
+        }else{
+        setMessage(false)
+        }
+      });
+
+       console.log(apiUrl)
     }
 
     
 
     function changeWord(event){
         setWord(event.target.value)
+
     }
 
+console.log(message)
+    
     return ( 
     
     <div>
@@ -35,7 +51,7 @@ axios.get(apiUrl).then(handleResponse)
         <form onSubmit={search}>
             <input type="search" onChange={changeWord} placeholder="Type a word" autoFocus={false} />
         </form>
-        <Results data={data}/>
+         {message===true ? <h1>No results found </h1> : <Results data={data} message={message}/> }
     </div>
     )
 }

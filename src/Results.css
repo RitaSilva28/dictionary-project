@@ -1,4 +1,9 @@
 .results{
-    margin:40px 40px;
+margin:40px 40px;
 width: 40%;
-text-align: start;}
+text-align: start;
+}
+
+.message{
+    margin:30px 0;
+}

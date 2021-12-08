@@ -13,7 +13,9 @@ if(props.data){
 
     return(
         <div className="results">
-<h2> {props.data.word}</h2> 
+<h2 className="name"> {props.data.word}</h2> 
+<h2 className="phonetic"> {props.data.phonetic}</h2> 
+
 {props.data.meanings.map(function(meaning,index){
 return <div key={index}>
     <Meaning meaning={meaning}/>

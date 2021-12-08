@@ -1,7 +1,26 @@
 .meaning{
-    background-color: rgba(242, 242, 242, 0.263);
-    padding:20px;
-    margin:20px;
-    border-radius: 5px;
+    background-color: rgba(242, 242, 242, 0.434);
+    padding:5px 20px;
+    border-radius: 10px;
     box-shadow: 0 0.125rem 0.25rem rgb(0 0 0 / 8%);
+    margin:20px auto;
+    color:#003063;
+}
+
+.definition{
+    color:#003063;
+    font-size:18px ;
+    margin-bottom:-3px;
+
+}
+
+.example{
+
+    color:#ff896b;
+    font-size:15px ;
+   font-style: italic;
+   font-weight: 300;
+
+
+
 }

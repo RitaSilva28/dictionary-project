@@ -16,13 +16,14 @@ h1{
 }
 
 h3{
-  color:#ff896b;
+  color:#003063;
 
 }
 
 footer{
-  margin:30px 0;
-
+  margin-top: 50px;
+  width: 100%;
+  color:#003063;
 }
 .social-logos-container {
   margin-bottom: 30px;

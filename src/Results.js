@@ -14,20 +14,9 @@ if(props.data){
         <div className="results">
 <h2 className="name"> {props.data.word}</h2> 
 
-
-
-
-
-{props.data.phonetics.map(function(phonetic,index){
-
-
-return <div key={index}>
-
 <PhoneticAudio phonetic={props.data.phonetics[0]} />
 
-</div>
-
-})}   
+  
 
 {props.data.meanings.map(function(meaning,index){
 return <div key={index}>

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function PhoneticAudio(props){
 console.log(props)
-   let audio = "https:"+props.phonetic.audio
+   let audio = props.phonetic.audio
 
     function playMusic(){
 
